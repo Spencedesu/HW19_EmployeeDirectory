@@ -6,7 +6,8 @@ const TableBody = (props) => {
 //    console.log(props.content.length + " People");
     
     return (
-      <tbody>
+      
+      <tbody striped bordered hover>
       <tr>
         <td>Picture</td>
         <td>Name</td>
